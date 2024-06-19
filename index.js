@@ -420,7 +420,7 @@ let fetchTorrent = async (query, type = "series") => {
 
   let url = `${
     hostdata.host
-  }/api/v2.0/indexers/torrentday/results/torznab/api?apikey=${
+  }/api/v2.0/indexers/pterclub/results/torznab/api?apikey=${
     hostdata.apiKey
   }&${type == "movie" ? "t=movie" : "t=tvsearch"}&${
     type == "movie" ? "cat=2000" : "cat=5000"
